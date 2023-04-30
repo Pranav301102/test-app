@@ -1,6 +1,9 @@
 
 import styles from './header.module.scss';
 
+export interface HeaderProps {
+    className?: string;
+}
 
 /**
  * This component was created using Codux's Default new component template.
@@ -8,16 +11,16 @@ import styles from './header.module.scss';
  */
 export const Header = () => {
     return (
-        <div>
+        <div >
             <header className={styles.app_nav}>
                 <span className={styles.logo}></span>
                 <span className={styles.nav}>
                     <nav>
-                        <a href="/" className={styles.nav_links}>
+                        <a href="/home" className={styles.nav_links}>
                             Home
                         </a>{' '}
                         <a href="/movie" className={styles.nav_links}>
-                            Movie
+                            movie
                         </a>{' '}
                         <a href="/about" className={styles.nav_links}>
                             About
@@ -25,8 +28,9 @@ export const Header = () => {
                         <a href="/contact" className={styles.nav_links}>
                             Contact Us
                         </a>
+                        <button className={styles.sign_up}>Sign Up</button>
+                        <button className={styles.sign_up}>Sign Up</button>
                     </nav>
-                    <button className={styles.sign_up}>Sign Up</button>
                 </span>
             </header>
         </div>
