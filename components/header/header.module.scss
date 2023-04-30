@@ -1,0 +1,63 @@
+.root {
+}
+.app_nav {
+  display: flex;
+  overflow: hidden;
+  align-self: start;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 100vw;
+  height: 3rem;
+  color: #ffffff;
+  text-align: center;
+  background-color: #010101;
+  background-image: none;
+  background-repeat: repeat;
+  background-position: 0%;
+  background-size: auto;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-items: end;
+  align-content: start;
+  justify-content: start;
+}
+.logo {
+  text-align: center;
+  background-color: #eb1c1c;
+  display: inline-block;
+  height: 50px;
+  margin: 0px 0px 0px 40px;
+  width: 150px;
+}
+.nav {
+  background-color: rgba(41, 82, 204, 0);
+  display: flex;
+  width: 50vw;
+  height: 50px;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-items: center;
+  position: absolute;
+  right: 0px;
+  align-content: center;
+  justify-content: space-evenly;
+}
+.nav_links {
+  color: #c4c4c8;
+  padding: 10px;
+}
+.sign_up {
+  height: 30px;
+  padding: 10px;
+  border: 0px solid #b3a9a9;
+  border-radius: 8px;
+  font-weight: 400;
+  box-shadow: 0.87px 0.5px #cab3b3;
+}
